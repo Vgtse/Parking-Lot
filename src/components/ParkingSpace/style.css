@@ -1,0 +1,16 @@
+img {
+  position: relative;
+  animation: animation 5s 1;
+  animation-direction: normal;
+}
+
+@keyframes animation {
+  0% {
+    left: 100px;
+    top: 0px;
+  }
+  25% {
+    left: 0px;
+    top: 0px;
+  }
+}
